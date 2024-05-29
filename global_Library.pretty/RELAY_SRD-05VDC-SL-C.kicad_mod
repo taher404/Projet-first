@@ -1,0 +1,271 @@
+(footprint "RELAY_SRD-05VDC-SL-C"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "K12"
+		(at 0.46 -0.03 0)
+		(layer "F.SilkS")
+		(uuid "bbc734fa-cb70-4aab-aa2b-431db515f554")
+		(effects
+			(font
+				(size 1.000094 1.000094)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SRD-05VDC-SL-C"
+		(at 2.90086 8.667695 0)
+		(layer "F.Fab")
+		(uuid "81813f62-82c3-4cea-a759-b171ac73aa54")
+		(effects
+			(font
+				(size 1.000307 1.000307)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "RELAY_SRD-05VDC-SL-C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f52de9d9-20a2-40b8-a5c9-8a33c21a6838")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "318169a8-0ef2-4dc4-a60d-6a07187b90b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Relay 5V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a87a140f-ef8e-4edc-9d61-80616632c910")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MANUFACTURER" "SONGLE RELAY"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a92ad6f-734a-4a75-bfd7-eb8645e068e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "IPC-7251"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df18b5e5-6b26-4c23-92f1-d580d31cad2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.55 -7.75)
+		(end 9.55 -7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c257d73-45c6-4242-b34d-d8a4488c8020")
+	)
+	(fp_line
+		(start -9.55 7.75)
+		(end -9.55 -7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06f81b56-10dd-4595-99c7-9075ce82cd21")
+	)
+	(fp_line
+		(start 9.55 -7.75)
+		(end 9.55 7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7235ee52-9255-427c-8ec1-2e23d942df09")
+	)
+	(fp_line
+		(start 9.55 7.75)
+		(end -9.55 7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56e8c262-f402-4a25-87d7-fb3990560548")
+	)
+	(fp_circle
+		(center -10.2 -6.119)
+		(end -10.1 -6.119)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d3cbb7d2-c442-41b7-ac1b-e7fb342d9543")
+	)
+	(fp_line
+		(start -9.8 -8)
+		(end 9.8 -8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e882ca61-2da0-4e45-8704-5e2fd96876bc")
+	)
+	(fp_line
+		(start -9.8 8)
+		(end -9.8 -8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d14d340f-37cd-4c68-ad75-ce317e533cf1")
+	)
+	(fp_line
+		(start 9.8 -8)
+		(end 9.8 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "250aa97b-bfbe-4ce0-81b1-717af6f6945c")
+	)
+	(fp_line
+		(start 9.8 8)
+		(end -9.8 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "526f4d27-8161-41eb-9dab-7636b30885e3")
+	)
+	(fp_line
+		(start -9.55 -7.75)
+		(end 9.55 -7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38264320-00a1-412c-a13a-baf4c4d62c07")
+	)
+	(fp_line
+		(start -9.55 7.75)
+		(end -9.55 -7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8796216e-ae87-44d2-b93f-7d6aa98bf537")
+	)
+	(fp_line
+		(start 9.55 -7.75)
+		(end 9.55 7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3ee60de-6495-4cac-a372-a48cfe126883")
+	)
+	(fp_line
+		(start 9.55 7.75)
+		(end -9.55 7.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d2541d7-e11c-4e2e-b42c-757525b1b39f")
+	)
+	(pad "A1" thru_hole rect
+		(at -6.1 -6)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bf73ed0-1ca9-4345-b688-f19d1ffa1e03")
+	)
+	(pad "A2" thru_hole circle
+		(at -6.1 6)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa470759-e801-43c0-a655-6bbf0d99e0c0")
+	)
+	(pad "COM" thru_hole circle
+		(at -8.1 0)
+		(size 1.935 1.935)
+		(drill 1.29)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "621bb595-6aa0-4d53-85f5-d67e2c81fca4")
+	)
+	(pad "NC" thru_hole circle
+		(at 6.1 -6)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f6955db-3062-421d-8e2f-e71d73490d71")
+	)
+	(pad "NO" thru_hole circle
+		(at 6.1 6)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ddd8fd60-0191-4c3c-9e80-d6ecd69368ce")
+	)
+	(model "C:/Users/DELL VPro/OneDrive/Documents/KiCad/7.0/projects/esp32-4-channel-relays-main/lib/3dmodel/SRD-05VDC-SL-C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,237 @@
+(footprint "BC547A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf")
+	(tags "TSOT-23 Hand-soldering")
+	(property "Reference" "Q13"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "901aadf4-02f2-4d7c-b236-d133631d3cf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BC547A"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "2ce8eebf-aff9-49fb-8697-f82ffa4c0e91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "BC547A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1ad877a-15dd-4ac3-9f2b-188f08788ae5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2f53702-5749-4a29-b30a-cdff86b4b812")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "NPN TO-92 transistor, 45V, 100mA, 500mW, Complementary to BC557, Alternate KiCAD Library"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4599094d-42f6-4adb-a3f0-02f24ec2ee37")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.93 -1.51)
+		(end -1.5 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68add03a-6a4a-42eb-b7b7-641cf1d28f5a")
+	)
+	(fp_line
+		(start 0.95 -1.5)
+		(end 0.95 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b47455bd-f58f-4cb8-a8b6-8f756f8f2173")
+	)
+	(fp_line
+		(start 0.95 0.5)
+		(end 0.95 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9942c261-72ce-409f-8525-9d666251c204")
+	)
+	(fp_line
+		(start 0.95 1.55)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9675170c-8968-4dec-be20-e325ecb93184")
+	)
+	(fp_line
+		(start -2.96 -1.7)
+		(end -2.96 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfcd793d-8748-4ca4-958c-cd18a7eee5c4")
+	)
+	(fp_line
+		(start -2.96 -1.7)
+		(end 2.96 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d317189-ab0c-4d0a-a6b4-cdb034661507")
+	)
+	(fp_line
+		(start 2.96 1.7)
+		(end -2.96 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b93758e-a544-45cd-9e25-33657de4e25e")
+	)
+	(fp_line
+		(start 2.96 1.7)
+		(end 2.96 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f624a54f-1017-4a6a-9ec7-55de89afe6c8")
+	)
+	(fp_line
+		(start -0.88 -1)
+		(end -0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6f0cca0-fb51-46db-a8f7-424e9e7e4200")
+	)
+	(fp_line
+		(start -0.88 -1)
+		(end -0.43 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b014680-3c72-45e2-b8c1-ded9a472fe73")
+	)
+	(fp_line
+		(start 0.88 -1.45)
+		(end -0.43 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a2dfb3f-6e53-4846-82ae-f92e90411885")
+	)
+	(fp_line
+		(start 0.88 -1.45)
+		(end 0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8d2f9ee-bf5b-4a2a-95d2-b058f90f503b")
+	)
+	(fp_line
+		(start 0.88 1.45)
+		(end -0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3bfdb89-b470-4169-aa3b-a5caec8ba6c9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "2ff14a0b-efcb-4682-9f01-dafa9d49e662")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.71 -0.95)
+		(size 2 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36fdf669-2366-4e19-ab27-8399b1e2df81")
+	)
+	(pad "2" smd rect
+		(at -1.71 0.95)
+		(size 2 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3e122ae-dfcc-474e-b4eb-156ebb3285c0")
+	)
+	(pad "3" smd rect
+		(at 1.71 0)
+		(size 2 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b141de96-a748-4171-bab0-7ef60bbefa69")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

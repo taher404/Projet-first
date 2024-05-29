@@ -1,0 +1,238 @@
+(footprint "MBT3904DW1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-363, SC-70-6, Handsoldering")
+	(tags "SOT-363 SC-70-6 Handsoldering")
+	(property "Reference" "Q1"
+		(at 2.69 -0.06 90)
+		(layer "F.SilkS")
+		(uuid "18ccd6eb-561d-49ed-bffe-9f2560ddb6ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MBT3904DW1"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "2dbfce4e-4531-4434-bf68-31814f79fdea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MBT3904DW1"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "2f1a1ffd-22a2-4884-8ab0-f3a335196166")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "59d52abb-fb6f-43a7-85d8-86c41fccf611")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Dual Matched NPN SOT-363 transistor, 40V, 200mA, 150mW, Alternate KiCAD Library"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "13bf9120-96f0-4736-92a2-42e730db24d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -1.16)
+		(end 0.7 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f682d542-8628-4ea1-ac7a-338d6f155c97")
+	)
+	(fp_line
+		(start 0.7 1.16)
+		(end -0.7 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41473662-f2c6-41b9-8317-359d7ecaa00e")
+	)
+	(fp_line
+		(start -2.4 1.4)
+		(end -2.4 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef758119-119b-430c-a928-9329939f2e42")
+	)
+	(fp_line
+		(start 2.4 -1.4)
+		(end -2.4 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcf5e166-f990-4a18-b8f9-6cda8dabb5ce")
+	)
+	(fp_line
+		(start 2.4 -1.4)
+		(end 2.4 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a6167fb-0c6d-47ad-99a6-51820eb9ea92")
+	)
+	(fp_line
+		(start 2.4 1.4)
+		(end -2.4 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "150f50ed-8410-4a1c-aa64-3188696df392")
+	)
+	(fp_line
+		(start -0.675 -0.6)
+		(end -0.175 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37ba1c96-b244-443f-be08-6aa738637f49")
+	)
+	(fp_line
+		(start -0.675 1.1)
+		(end -0.675 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c371c48-1f74-4d72-bd7e-38bf80cc0f5b")
+	)
+	(fp_line
+		(start -0.675 1.1)
+		(end 0.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37cc9f57-c5be-4de6-984e-aacf4aa47da6")
+	)
+	(fp_line
+		(start -0.175 -1.1)
+		(end 0.675 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "297afce9-b77c-4f51-9ef9-82a634edfbc7")
+	)
+	(fp_line
+		(start 0.675 1.1)
+		(end 0.675 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c972193b-8532-4b21-8f45-6353e6854eb9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "e064099a-33d2-49ba-b4ff-aaa133dd5f68")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.33 -0.65)
+		(size 1.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f6873f7c-d0c6-4978-9ee4-99bf0ea656da")
+	)
+	(pad "2" smd rect
+		(at -1.33 0)
+		(size 1.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b09ccece-ed34-4433-84b7-af5a9f9b550d")
+	)
+	(pad "3" smd rect
+		(at -1.33 0.65)
+		(size 1.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4b453cda-844b-4582-915d-6da36afdecc0")
+	)
+	(pad "4" smd rect
+		(at 1.33 0.65)
+		(size 1.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "efc8ed67-a2c6-46de-8575-2543eaaef3fe")
+	)
+	(pad "5" smd rect
+		(at 1.33 0)
+		(size 1.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1afbde0e-9ef1-4169-b5f2-a38cad874484")
+	)
+	(pad "6" smd rect
+		(at 1.33 -0.65)
+		(size 1.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b2faf4ec-078d-4b89-aa48-fcccf55f3381")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
